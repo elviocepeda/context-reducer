@@ -34,13 +34,7 @@ const StoreReducer = (state, action) => {
     case types.productDeleteAll:
       return {
         ...state,
-        products: [],
-      };
-
-    case types.productChange:
-      return {
-        ...state,
-        products: [{ id: 3, title: "Product #3" }],
+        products: action.payload
       };
 
     default:

@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 import { StoreContext } from "../store/StoreProvider";
 import { types } from "../store/StoreReducer";
 import NavBar from "./NavBar";
-
-//STYLESHEETS
 import "../stylesheets/Header.css";
 
 const Header = () => {
@@ -11,7 +9,6 @@ const Header = () => {
   const [store, dispatch] = useContext(StoreContext)
   const {data} = store;
   const {users} = data;
-  console.log(users)
   
   return (
     <div className="container-header">
