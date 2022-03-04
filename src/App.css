@@ -1,11 +1,14 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
   width: 80%;
+  height: 100vh;
+  overflow-x: hidden;
   margin: 0 auto;
   border: 1px solid black;
 }

@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
+import '../stylesheets/Page2.css'
 
 const Page2 = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h2>Page 2</h2>
-    </div>
+      <div className='page2-content'>
+        <h1>Page 2</h1>
+      </div>
+    </>
   )
 }
 

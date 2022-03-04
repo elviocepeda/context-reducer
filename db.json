@@ -1,0 +1,66 @@
+{
+  "data": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Elvio",
+        "username": "elvio",
+        "password": 123456,
+        "email": "cepedaelvio@gmail.com",
+        "isConnected": false
+      },
+      {
+        "id": 2,
+        "name": "Admin",
+        "username": "admin",
+        "password": 123456,
+        "email": "cepedaelvio@gmail.com",
+        "isConnected": false
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "imgUrl": "https://i.ibb.co/j3m3P6c/1.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      },
+      {
+        "id": 2,
+        "imgUrl": "https://i.ibb.co/0KMNZ0c/2.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      },
+      {
+        "id": 3,
+        "imgUrl": "https://i.ibb.co/XsHqDVx/3.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      },
+      {
+        "id": 4,
+        "imgUrl": "https://i.ibb.co/mhSBZXz/4.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      },
+      {
+        "id": 5,
+        "imgUrl": "https://i.ibb.co/SVKJ0Jq/5.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      },
+      {
+        "id": 6,
+        "imgUrl": "https://i.ibb.co/xFC0Lgz/6.jpg",
+        "title": "Titulo del producto",
+        "description": "Descripcion del producto, descripcion del producto",
+        "isFavorite": false
+      }
+    ]
+  }
+}

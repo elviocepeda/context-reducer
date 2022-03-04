@@ -1,10 +1,9 @@
 const types = {
   authLogin: "auth - login",
   authLogout: "auth - logout",
-  productDeleteAll: "product - delete all",
-  productChange: "product - change",
   dataSuccess: "data - success",
-  dataError: "data - error"
+  dataError: "data - error",
+  isFavorite: "is - favorite"
 };
 
 const StoreReducer = (state, action) => {
@@ -30,13 +29,7 @@ const StoreReducer = (state, action) => {
 
     case types.authLogin:
       return {...state, users: action.payload[0].isConnected = true}
-
-    case types.productDeleteAll:
-      return {
-        ...state,
-        products: action.payload
-      };
-
+      
     default:
       return state;
   }

@@ -1,0 +1,47 @@
+.products-list {
+  background-color: tan;
+  margin-top: 3.5em;
+}
+
+.products-list h1 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.products {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+
+.products ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  list-style: none;
+}
+
+.products li {
+  width: 250px;
+  list-style: none;
+  margin: 1em;
+}
+
+.product-card {
+  background-color: #fff;
+  box-shadow: 6px 6px 12px #00000090;
+}
+
+.product-card img {
+  width: 250px;
+}
+
+.product-card h3 {
+  margin: .5em;
+}
+
+.product-card p {
+  padding: .7em;
+}

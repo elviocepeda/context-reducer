@@ -1,0 +1,8 @@
+.homepage-content {
+  text-align: center;
+  width: 100%;
+  height: calc(100vh - 3.6em);
+  padding-top: 1.5em;
+  margin-top: 3.5em;
+  background-color: tan;
+}

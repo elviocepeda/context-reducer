@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
+import '../stylesheets/Page3.css'
 
 const LocationsPage = () => {
   return (
-    <div>
+    <>
       <Header />
-      <h2>Page 3</h2>
-  </div>
+      <div className='page3-content'>
+        <h1>Page 3</h1>
+      </div>
+  </>
   )
 }
 

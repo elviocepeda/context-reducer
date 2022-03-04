@@ -1,13 +1,12 @@
 
 import React, { useContext } from "react";
 import { StoreContext } from "../store/StoreProvider";
-import { types } from "../store/StoreReducer";
 import Loading from "./Loading";
 import ProductCard from "./ProductCard";
 
 const ProductsList = () => {
 
-    const [store, dispatch] = useContext(StoreContext)
+    const [store] = useContext(StoreContext)
     const {data} = store
     const {products} = data
     
@@ -16,7 +15,7 @@ const ProductsList = () => {
             <h1>Products</h1>
             {store.loading
             ?   <Loading />
-            :   <div>
+            :   <div className="products">
                     
                     <ul>{products?.map((product) => (
                         <li key={product.id}>
@@ -26,9 +25,8 @@ const ProductsList = () => {
                         </li>
                     ))}
                     </ul>
-                    <button onClick={() => dispatch({ type: types.productDeleteAll, payload: data.products = []})}>
-                        Eliminar
-                    </button>
+                    
+                    
                 </div>
             }
         </div>
