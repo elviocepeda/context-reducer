@@ -1,6 +1,16 @@
 .products-list {
   background-color: tan;
   margin-top: 3.5em;
+  animation: show 1s ease-in forwards;
+}
+
+@keyframes show {
+  0% {
+    filter: opacity(0);
+  }
+  100% {
+    filter: opacity(1);
+  }
 }
 
 .products-list h1 {
@@ -19,7 +29,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  border: 1px solid red;
   list-style: none;
 }
 

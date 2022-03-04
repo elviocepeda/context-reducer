@@ -11,12 +11,13 @@ const ProductsList = () => {
     const {products} = data
     
     return (
-        <div className="products-list">
-            <h1>Products</h1>
-            {store.loading
+        <>{store.loading
             ?   <Loading />
-            :   <div className="products">
-                    
+            : <div className="products-list">
+                <h1>Products</h1>
+            
+                <div className="products">
+
                     <ul>{products?.map((product) => (
                         <li key={product.id}>
                         
@@ -25,11 +26,9 @@ const ProductsList = () => {
                         </li>
                     ))}
                     </ul>
-                    
-                    
                 </div>
-            }
-        </div>
+            </div>}
+        </>
     )
 }
 

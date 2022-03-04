@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   position: fixed;
+  z-index: 100;
   width: 80%;
   height: 4em;
 }
@@ -16,7 +17,6 @@
   align-items: center;
   width: 25%;
   height: 100%;
-  border: 1px solid rgb(255, 255, 255);
   padding-left: 1em;
 }
 
@@ -34,7 +34,6 @@
   align-items: center;
   width: 50%;
   height: 100%;
-  border: 1px solid blue;
 }
 
 .container-nav ul {
@@ -64,7 +63,6 @@
   align-items: center;
   width: 25%;
   height: 100%;
-  border: 1px solid rgb(255, 255, 255);
 }
 
 .container-userlog span {
