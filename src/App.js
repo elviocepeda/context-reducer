@@ -6,10 +6,12 @@ import './stylesheets/Header.css'
 function App() {
 
   return (
-    <div className='container'>
-      <StoreProvider>
-        <AppRouter />
-      </StoreProvider>
+    <div className='app'>
+      <div className='container'>
+        <StoreProvider>
+          <AppRouter />
+        </StoreProvider>
+      </div>
     </div>
   );
 }

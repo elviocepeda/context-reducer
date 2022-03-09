@@ -24,13 +24,13 @@ const Header = () => {
         {users && users[1].isConnected
         ? <>
             <span>{`Hola ${users[1].name}!`}</span>
-            <button className="btn btn-user" onClick={() => dispatch({ type: types.authLogout, payload: users.filter((user) => user.id === 2) })}>
+            <button className="btn-user" onClick={() => dispatch({ type: types.authLogout, payload: users.filter((user) => user.id === 2) })}>
               Logout
             </button>
           </>
         : <>
             <span>Invitado</span>
-            <button className="btn btn-user" onClick={() => dispatch({ type: types.authLogin, payload: users.filter((user) => user.id === 2)})}>
+            <button className="btn-user" onClick={() => dispatch({ type: types.authLogin, payload: users.filter((user) => user.id === 2)})}>
               Login
             </button>
 
