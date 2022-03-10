@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import '../stylesheets/Page2.css'
 
-const Page2 = () => {
+const NewsPage = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const Page2 = () => {
   )
 }
 
-export default Page2
+export default NewsPage

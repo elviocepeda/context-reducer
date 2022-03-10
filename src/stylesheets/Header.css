@@ -1,38 +1,23 @@
 /* HEADER */
 
 .container-header {
-  background-color: #1a1a1a;
+  background-color: #eeeeee;
   display: flex;
   align-items: center;
   position: fixed;
   z-index: 100;
-  width: 80%;
-  height: 4em;
-}
-
-/* LOGO */
-
-.container-logo {
-  display: flex;
-  align-items: center;
-  width: 25%;
-  height: 100%;
-  padding-left: 1em;
-}
-
-.container-logo span {
-  color: #fff;
-  font-size: x-large;
-  font-weight: 500;
+  width: 75%;
+  height: 2.5em;
+  box-shadow: 0 6px 12px #22222290;
 }
 
 /* NAVBAR */
 
 .container-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  width: 50%;
+  width: 45%;
   height: 100%;
 }
 
@@ -49,38 +34,39 @@
 }
 
 .container-nav ul li span {
-  color: #ffffff;
+  color: #222222;
   text-decoration-line: none;
-  font-size: x-large;
-  font-weight: 500;
+  font-size: 1em;
+  font-weight: 700;
 }
 
-/* USERLOG */
+/* LOGO */
 
-.container-userlog {
+.container-logo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 25%;
+  width: 10%;
   height: 100%;
 }
 
-.container-userlog span {
-  color: #ffffff;
-  margin-left: 1em;
-  font-size: x-large;
-  font-weight: 500;
+.container-logo span {
+  color: #222222;
+  font-size: 1em;
+  font-weight: 700;
 }
 
-.btn-user {
-  width: 80px;
-  height: 40px;
-  margin-right: 1em;
-  background-color: #494949;
-  color: #ffffff;
-  font-size: large;
-  font-weight: 500;
-  border-style: none;
-  border-radius: 5px;
-  cursor: pointer;
+/* SVG ICON */
+
+.container-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  padding-right: 1em;
+}
+
+.container-menu svg {
+  margin: .5em;
 }

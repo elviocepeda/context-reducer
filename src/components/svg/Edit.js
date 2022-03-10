@@ -2,23 +2,18 @@ import React from "react";
 
 const Edit = () => {
   return (
-    <svg
-      width="25px"
-      height="25px"
-      viewBox="0 0 21 20"
-      version="1.1"
-    >
+    <svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1">
       <g
         id="Page-1"
         stroke="none"
-        stroke-width="1"
-        fill="none"
+        strokeWidth="1"
+        fill="#000"
         fill-rule="evenodd"
       >
         <g
           id="Dribbble-Light-Preview"
           transform="translate(-59.000000, -400.000000)"
-          fill="#000000"
+          fill="#000"
         >
           <g id="icons" transform="translate(56.000000, 160.000000)">
             <path

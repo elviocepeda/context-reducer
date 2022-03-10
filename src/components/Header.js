@@ -3,6 +3,10 @@ import { StoreContext } from "../store/StoreProvider";
 import { types } from "../store/StoreReducer";
 import NavBar from "./NavBar";
 import "../stylesheets/Header.css";
+import Cart from "./svg/Cart";
+import Search from "./svg/Search";
+import User from "./svg/User";
+import Logo from "./svg/Logo";
 
 const Header = () => {
 
@@ -13,15 +17,16 @@ const Header = () => {
   return (
     <div className="container-header">
 
-      <div className="container-logo">
-        <span>Logo</span>
-      </div>
-
       <NavBar />
 
-      <div className="container-userlog">
+      <Logo />
 
-        {users && users[1].isConnected
+      <div className="container-menu">
+        
+        <Search />
+        <Cart />
+        <User />
+        {/* {users && users[1].isConnected
         ? <>
             <span>{`Hola ${users[1].name}!`}</span>
             <button className="btn-user" onClick={() => dispatch({ type: types.authLogout, payload: users.filter((user) => user.id === 2) })}>
@@ -35,7 +40,7 @@ const Header = () => {
             </button>
 
           </>
-        }
+        } */}
         
       </div>
 

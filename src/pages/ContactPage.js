@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import '../stylesheets/Page3.css'
 
-const LocationsPage = () => {
+const ContactPage = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const LocationsPage = () => {
   )
 }
 
-export default LocationsPage
+export default ContactPage

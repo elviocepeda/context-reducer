@@ -1,9 +1,11 @@
 .products-list {
-  background-color: rgb(236, 236, 236);
-  margin-top: 3.5em;
+  background-color: #eeeeee;
+  margin-top: 2em;
 }
 
 .products-list h1 {
+  font-size: 25px;
+  font-weight: 700;
   text-align: center;
   padding-top: 1em;
 }

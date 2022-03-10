@@ -1,22 +1,22 @@
 export const NavBarData = [
   {
-    text: 'Home',
+    text: 'INICIO',
     path: '/',
     style: {textDecoration: 'none'}
   },
   {
-    text: 'Products',
+    text: 'PRODUCTOS',
     path: '/products',
     style: {textDecoration: 'none'}
   },
   {
-    text: 'page2',
-    path: '/page2',
+    text: 'NUEVO!',
+    path: '/news',
     style: {textDecoration: 'none'}
   },
   {
-    text: 'page3',
-    path: '/page3',
+    text: 'CONTACTO',
+    path: '/contact',
     style: {textDecoration: 'none'}
   }
 

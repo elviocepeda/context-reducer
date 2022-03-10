@@ -14,7 +14,7 @@ const ProductsList = () => {
         <>{store.loading
             ?   <Loading />
             : <div className="products-list">
-                <h1>Products</h1>
+                <h1>PRODUCTOS</h1>
             
                 <div className="products">
 
