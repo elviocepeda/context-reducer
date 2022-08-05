@@ -14,7 +14,7 @@ export default function AppRouter() {
   return (
     <>
       <Router>
-          <Routes>
+        <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path='/products' element={<ProductsPage />} />
           <Route path='/news' element={<NewsPage />} />
